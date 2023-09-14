@@ -71,10 +71,10 @@
             "name": "[parameters('hostingPlanName')]",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "S1",
+                "name": "S3",
                 "tier": "Standard",
-                "size": "S1",
-                "family": "S1",
+                "size": "S3",
+                "family": "S3",
                 "capacity": 1
             },
             "kind": "app",
